@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UFT-8">
+    <title>William Shakespeare</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="form.js" defer></script>
+
+<body style="background-color:antiquewhite">
+
+
+    <header>
+        <center>
+            <h1>William Shakespeare</h1>
+            <p><em>The Bard of Avon</em>
+        </center>
+
+    </header>
+
+    <nav>
+        <center>
+            <a href="#about">About </a> |
+            <a href="#works">Works </a> |
+            <a href="#death">Death </a> |
+            <a href="#form">Form</a>
+        </center>
+
+    </nav>
+
+    <hr>
+    <p><em>
+            <marquee>Drama will be staged based on the works of William Shakespeare,interested people are requested to
+                fill the form</marquee>
+        </em></p>
+    <hr>
+
+    <main>
+
+        <article id="about">
+            <h2 style="color:rebeccapurple">About</h2>
+            <p>
+                <strong>William Shakespeare</strong> (baptized April 26, 1564, Stratford-upon-Avon, Warwickshire,
+                England—died April 23, 1616, Stratford-upon-Avon) was a poet, dramatist, and actor often called the
+                English national poet. He is considered by many to be the greatest dramatist of all time.
+            </p>
+            <p>
+                Shakespeare occupies a position unique in world literature. Other poets, such as <strong> Homer
+                </strong> and<strong> Dante</strong>, and novelists, such as <strong>Leo Tolstoy</strong> and
+                <strong>Charles Dickens</strong>, have transcended national barriers, but no writer’s living reputation
+                can compare to that of Shakespeare, whose plays, written in the late 16th and early 17th centuries for a
+                small repertory theatre, are now performed and read more often and in more countries than ever before.
+                The prophecy of his great contemporary, the poet and dramatist Ben Jonson, that Shakespeare “was not of
+                an age, but for all time,” has been fulfilled.
+            </p>
+
+            <figure align="center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Shakespeare.jpg" width="200">
+                <figcaption>Portrait of Shakespeare</figcaption>
+            </figure>
+        </article>
+
+        <article id="works">
+            <h2>Works</h2>
+
+            <h3>Tragedies</h3>
+            <ol>
+                <li><em>Hamlet</em></li>
+                <li><em>Macbeth</em></li>
+                <li> <em>Othello</em></li>
+            </ol>
+
+            <h3>Comedies</h3>
+            <ol type="A">
+                <li><em>Twelfth Night</em></li>
+                <li><em>Much Ado About Nothing</em></li>
+            </ol>
+        </article>
+
+        <article id="death">
+            <h2>Death</h2>
+            <p class="death">
+                Shakespeare died on 23 April 1616, at the age of 52. He died within a month of signing his will, a
+                document which he begins by describing himself as being in "perfect health". No extant contemporary
+                source explains how or why he died. Half a century later, John Ward, the vicar of Stratford, wrote in
+                his notebook: "Shakespeare, Drayton, and Ben Jonson had a merry meeting and, it seems, drank too hard,
+                for Shakespeare died of a fever there contracted",not an impossible scenario since Shakespeare knew
+                Jonson and Michael Drayton. Of the tributes from fellow authors, one refers to his relatively sudden
+                death: "We wondered, Shakespeare, that thou went'st so soon / From the world's stage to the grave's
+                tiring room.
+            </p>
+            <p class="death">
+                He was survived by his wife and two daughters. Susanna had married a physician, John Hall, in 1607,and
+                Judith had married Thomas Quiney, a vintner, two months before Shakespeare's death.Shakespeare signed
+                his last will and testament on 25 March 1616; the following day, Thomas Quiney, his new son-in-law, was
+                found guilty of fathering an illegitimate son by Margaret Wheeler, and Margaret and her son both died
+                during childbirth. Thomas was ordered by the church court to do public penance, which would have caused
+                much shame and embarrassment for the Shakespeare family
+            </p>
+            <p>
+                Shakespeare bequeathed the bulk of his large estate to his elder daughter Susannaunder stipulations that
+                she pass it down intact to "the first son of her body".The Quineys had three children, all of whom died
+                without marrying.The Halls had one child, Elizabeth, who married twice but died without children in
+                1670, ending Shakespeare's direct line.Shakespeare's will scarcely mentions his wife, Anne, who was
+                probably entitled to one-third of his estate automatically.He did make a point, however, of leaving her
+                "my second best bed", a bequest that has led to much speculation.Some scholars see the bequest as an
+                insult to Anne, whereas others believe that the second-best bed would have been the matrimonial bed and
+                therefore rich in significance.Shakespeare was buried in the chancel of the Holy Trinity Church two days
+                after his death.The epitaph carved into the stone slab covering his grave includes a curse against
+                moving his bones, which was carefully avoided during restoration of the church in 2008.
+            </p>
+
+            <figure align="center">
+                <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Shakespeare_grave_-Stratford-upon-Avon_-3June2007.jpg/1920px-Shakespeare_grave_-Stratford-upon-Avon_-3June2007.jpg"
+                    width="300" alt="Grave">
+                <!-- <img src="" width="" alt=""-->
+
+                <figcaption>Grave of William Shakespeare</figcaption>
+
+            </figure>
+        </article>
+
+    </main>
+
+    <div>
+        <hr>
+        <p>
+        <h1 align="center">FORM </h1>
+        <form id="form">
+            <center>
+                <label for="name">NAME: </label>
+                <input type="text" name="name" id="name" required>
+                <p>
+                    <label for="email">EMAIL: </label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <label for="password">PASSWORD:</label>
+                    <input type="password" name="password" id="password" required>
+                </p>
+
+                <p>
+                    <label for="phone">PHONE: </label>
+                    <input type="tel" name="phone" id="phone" required>
+                </p>
+                <center>
+                    <p>
+                        <button>Submit</button>
+                    </p>
+                </center>
+            </center>
+        </form>
+        <fieldset>
+            <legend> Which Shakespeare play would you like to watch? </legend>
+            <p>
+                <input type="radio" name="watch" id="hamlet" value="hamlet" checked>
+                <label for="hamlet">Hamlet</label>
+            </p>
+            <p>
+                <input type="radio" name="watch" id="othello" value="othello">
+                <label for="othello">Othello</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Which Shakespeare play would you like to watch?</legend>
+            <p>
+                <input type="checkbox" name="hamlet" id="hamlet">
+                <lable for="hamlet">Hamlet</lable>
+            </p>
+
+            <p>
+                <input type="checkbox" name="othello" id="othello">
+                <lable for="othello">Othello</lable>
+            </p>
+
+            <p>
+                <input type="checkbox" name="Macbeth" id="Macbeth">
+                <lable for="Macbeth">Macbeth</lable>
+            </p>
+        </fieldset>
+
+        <div>
+            <label for="watch">Which Shakespeare play would you like to watch?</label>
+            <select name="watch" id="watch">
+                <option value="">---please choose a option</option>
+                <option value="hamlet">Hamlet</option>
+                <option value="othello">Othello</option>
+                <option value="macbeth">Macbeth</option>
+            </select>
+        </div>
+
+        <p>
+            <label for="comments">Any thoughts:</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="20" placeholder="comment"></textarea>
+        </p>
+
+        <center>
+            <p>
+                <button>Submit</button>
+            </p>
+        </center>
+
+
+
+        </p>
+    </div>
+    <center>
+        <table border="1">
+            <tr>
+                <th>S.No.</th>
+                <th>BOOK</th>
+                <th>YEAR</th>
+                <th>GENRE</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Macbeth</td>
+                <td>1111</td>
+                <td>tragedy</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Othello</td>
+                <td>1111</td>
+                <td>tragedy</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Hamlet</td>
+                <td>1111</td>
+                <td>tragedy</td>
+            </tr>
+        </table>
+
+    </center>
+</body>
+
+</html>
