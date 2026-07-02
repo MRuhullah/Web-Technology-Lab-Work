@@ -1,0 +1,134 @@
+.card1 {
+    display: flex;
+    /*ek hi line mein layega*/
+}
+
+.blk {
+    display: block;
+    /*agli line mein layega and full width ocuppy karega*/
+    border: 2px solid blue;
+}
+
+.inline {
+    display: inline;
+    /*makes an element stay on the same line as other elements and only take up as much width as its content needs.*/
+    border: 2px solid;
+}
+
+ul {
+    display: inline-flex;
+    border: 2px solid rgb(4, 4, 55);
+    list-style: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove default padding */
+}
+
+li {
+    border: 2px solid purple;
+}
+
+.container {
+
+    border: 5px solid black;
+}
+
+.box {
+    border: 5px solid rebeccapurple;
+    width: 300px;
+    padding: 40px;
+    margin: 40px;
+}
+
+.box2>* {
+
+    border: 2px solid maroon;
+    border-radius: 2px;
+}
+
+.box2 {
+    border: 2px dotted blue;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+
+.box3>* {
+    border: 2px solid maroon;
+    border-radius: 2px;
+    width: 200px;
+}
+
+.box3 {
+    border: 2px dotted blue;
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+}
+
+.box4>* {
+    border: 2px solid rgb(96 139 168);
+    border-radius: 5px;
+}
+
+.box4 {
+    width: 500px;
+    height: 150px;
+    border: 2px dotted rgb(96 139 168);
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    /*aligns flex items along the cross axis.*/
+}
+
+.box5>* {
+    border: 2px solid rgb(96 139 168);
+    border-radius: 5px;
+}
+
+.box5 {
+    border: 2px dotted rgb(96 139 168);
+    display: flex;
+    justify-content: center;
+    /*aligns flex items along the main axis.*/
+}
+
+.pos {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+}
+
+#two {
+    position: relative;
+    left: 20px;
+    background: blue;
+    border: 2px black;
+}
+
+.parent {
+    padding: 43px;
+    margin: 34px;
+    border: 3px solid purple;
+}
+
+ #one {
+    position: absolute;
+}
+
+.fix {
+    border: 2px solid salmon;
+    position: fixed;
+    width: 100px;
+}
+
+.sti {
+    position: sticky;
+    top: 0px;
+    border: 2px solid slateblue;
+    width: 200px;
+}
