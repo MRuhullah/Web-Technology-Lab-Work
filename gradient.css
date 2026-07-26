@@ -1,0 +1,8 @@
+.linear {
+    border: 2px solid salmon;
+    margin: 200px;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    background: linear-gradient(red , orange, yellow );
+}
